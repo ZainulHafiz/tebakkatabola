@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pogba">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/putih1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="172dp"
+                android:layout_gravity="top"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/poggba" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="190dp"
+            android:gravity="center"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/mu">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <Button
+                    android:layout_width="340dp"
+                    android:layout_height="76dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="5. pemain yang baru saja menjuarai piala dunia 2018 ini adalah?"/>
+                <Button
+                    android:id="@+id/pogba1"
+                    android:layout_width="290dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="marcus rashford"/>
+                <Button
+                    android:id="@+id/pogba2"
+                    android:layout_width="290dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="nemanja matic"/>
+                <Button
+                    android:id="@+id/pogba3"
+                    android:layout_width="290dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="paul pogba"/>
+                <Button
+                    android:id="@+id/pogba4"
+                    android:layout_width="290dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="diogo dalot"/>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

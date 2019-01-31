@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tib.tebakkatabola">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icongame"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Alonso" />
+        <activity android:name=".Azpiliqueta" />
+        <activity android:name=".Jorginho" />
+        <activity android:name=".Hudson" />
+        <activity android:name=".Barkley" />
+        <activity android:name=".Belerin" />
+        <activity android:name=".Iwobi" />
+        <activity android:name=".Lacazzete" />
+        <activity android:name=".Ramsey" />
+        <activity android:name=".Xaka" />
+        <activity android:name=".Matic" />
+        <activity android:name=".Marcus" />
+        <activity android:name=".Degea" />
+        <activity android:name=".Dalot" />
+        <activity android:name=".Pogba" />
+        <activity android:name=".Bernardo" />
+        <activity android:name=".Sane" />
+        <activity android:name=".Laporte" />
+        <activity android:name=".Gundogan" />
+        <activity android:name=".Bruyne" />
+        <activity android:name=".Menuhome"></activity>
+    </application>
+
+</manifest>

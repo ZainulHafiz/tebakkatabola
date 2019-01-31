@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gundogan">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="172dp"
+                android:layout_gravity="top"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/gundogan"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="190dp"
+            android:gravity="center"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/mc">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <Button
+                    android:layout_width="340dp"
+                    android:layout_height="76dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="3. pemain keturunan turki yang membela jerman ini adalah?"/>
+                <Button
+                    android:id="@+id/gundogan1"
+                    android:layout_width="290dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="ilkay gundogan "/>
+                <Button
+                    android:id="@+id/gundogan2"
+                    android:layout_width="290dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="benjamin mendy"/>
+                <Button
+                    android:id="@+id/gundogan3"
+                    android:layout_width="290dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="david siva"/>
+                <Button
+                    android:id="@+id/gundogan4"
+                    android:layout_width="290dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="ederson moraes"/>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

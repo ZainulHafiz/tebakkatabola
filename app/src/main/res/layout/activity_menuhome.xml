@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menuhome">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:background="@color/putih1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2000dp"
+                android:layout_gravity="center"
+                android:src="@drawable/lambang" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/putih">
+
+            <Button
+                android:id="@+id/celsi"
+                android:layout_width="85dp"
+                android:layout_height="76dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/chl" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true">
+
+            <Button
+                android:id="@+id/arsenal"
+                android:layout_width="85dp"
+                android:layout_height="76dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ars" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true">
+
+            <Button
+                android:id="@+id/city"
+                android:layout_width="85dp"
+                android:layout_height="76dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="70dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/mc" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true">
+
+            <Button
+                android:id="@+id/united"
+                android:layout_width="85dp"
+                android:layout_height="76dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="70dp"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/mu" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
